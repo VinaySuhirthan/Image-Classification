@@ -54,8 +54,6 @@ class CNNClassifier(nn.Module):
     self.fc1 = nn.Linear(128 * 3 * 3, 128) # Adjusted input features for fc1
     self.fc2 = nn.Linear(128, 64)
     self.fc3 = nn.Linear(64, 10)
-\
-
 
   def forward(self, x):
     x = self.pool(torch.relu(self.conv1(x)))
@@ -66,9 +64,6 @@ class CNNClassifier(nn.Module):
     x = torch.relu(self.fc2(x))
     x = self.fc3(x)
     return x
-
-
-
 ```
 
 ```python
@@ -95,7 +90,6 @@ def train_model(model, train_loader, num_epochs=3):
         print('Name: K S Vinay Suhirthan ')
         print('Register Number:212224230305')
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
-
 ```
 
 ## OUTPUT
