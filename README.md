@@ -101,22 +101,26 @@ def train_model(model, train_loader, num_epochs=3):
 ## OUTPUT
 ### Training Loss per Epoch
 
-<img width="441" height="163" alt="image" src="https://github.com/user-attachments/assets/1998eda2-a163-4eff-b085-2bb16bf8ffef" />
+<img width="451" height="201" alt="Screenshot 2026-02-25 200321" src="https://github.com/user-attachments/assets/42561774-bc9d-4398-9b4b-be59c734e97a" />
+
 
 
 ### Confusion Matrix
 
-<img width="722" height="622" alt="image" src="https://github.com/user-attachments/assets/9e3ef011-d3f8-41a9-bf80-37f317cf38cf" />
+<img width="871" height="653" alt="Screenshot 2026-02-25 200349" src="https://github.com/user-attachments/assets/ec66af9b-f7fc-47fe-8b1c-f73fcdcb1698" />
+
 
 
 ### Classification Report
 
-<img width="600" height="342" alt="image" src="https://github.com/user-attachments/assets/973b5e81-a4b2-4f50-8e21-3b5138d08e77" />
+<img width="719" height="321" alt="Screenshot 2026-02-25 200401" src="https://github.com/user-attachments/assets/3dc3b668-de51-4e3b-b12d-8fc8d0af399e" />
+
 
 
 ### New Sample Data Prediction
 
-<img width="594" height="495" alt="image" src="https://github.com/user-attachments/assets/4783536c-2f3a-440d-bf1b-a84a11916662" />
+<img width="742" height="467" alt="Screenshot 2026-02-25 200416" src="https://github.com/user-attachments/assets/bf83e5f8-365d-4004-a86e-0691688397d3" />
+
  
 ## RESULT
 A CNN was successfully implemented for handwritten digit classification using MNIST. The model achieved high accuracy (~98%) and correctly classified new unseen digit samples.
